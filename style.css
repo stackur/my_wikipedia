@@ -1,0 +1,326 @@
+html {
+	font-family: sans-serif;
+	color: #222;
+	font-size: 1em;
+	line-height: 1.4;
+}
+
+body{
+	margin: 0px;
+}
+
+.hauptsektion {
+	margin: 0 0 0 12em;
+}
+
+.seitennavigation {
+	padding: 0.15em;
+}
+
+.cleared:before,.cleared:after {
+	content: " ";
+	display: table;
+}
+
+.cleared:after {
+	clear: both;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: #000;
+	font-weight: normal;
+	margin: 0;
+	padding-top: 0.5em;
+	padding-bottom: 0.15em;
+}
+
+h1 {
+	font-family: 'Linux Libertine','Georgia','Times';
+	line-height: 1.3;
+	margin-bottom: 0.25em;
+	padding: 0;
+	font-size: 2.3em;
+}
+
+.artikel h1 {
+	border-bottom: 1px solid #a2a9b1;
+}
+
+.artikel h2 {
+	font-size: 1.6em;
+	margin: 0.5em 0 0.5em 0;
+	border-bottom: 1px solid #a2a9b1;
+	line-height: 1.4em;
+	overflow: hidden;
+}
+
+.artikel h3 {
+	font-weight: bold;
+	font-size: 1.2em;
+}
+
+a, a:visited {
+	color: #0645ad;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a.none:hover{
+	text-decoration: none;
+}
+
+ul {
+	list-style-type: none;
+	list-style-image: none;
+	margin: 0;
+	padding: 0.3em 0 0 0;
+}
+
+#Suche {
+	margin: 0.7em 0em 0em 1em;
+	display: block;
+	width: 197px;
+	height: 27px;
+	padding: 0 0 0 0px;
+	float: right;
+	overflow: hidden;
+}
+
+.wikizeichen {
+	margin-bottom: 10px;
+}
+
+.mittleresBild{
+	float: left;
+	width:10%;
+ 	height:auto;
+}
+
+.kleinesbild {
+	width: 1.3em;
+	height: 1.3em;
+}
+
+.seite {
+	float: left;
+	width: 9em;
+	padding: 3px 1.5em 10px 1.3em;
+	position: absolute;
+}
+
+.seite h3 {
+	font-size: 0.75em;
+	color: #4d4d4d;
+	font-weight: normal;
+	margin: 0.5em 0 0 0;
+	padding: 0.25em 0;
+	border-bottom: 1px solid #D8D8D8;
+}
+
+.seite li {
+	line-height: 1.13em;
+	margin: 0;
+	padding: 0.25em 0;
+	font-size: 0.75em;
+	word-wrap: break-word;
+}
+
+div.artikelRechts {
+	border: 1px solid #c8ccd1;
+	float: right;
+	background-color: #f8f9fa;
+	text-align: center;
+	overflow: hidden;
+	line-height: 1.4em;
+	padding: 3px;
+	margin: 0 0 5px 15px;
+}
+
+div.artikelRechtsÜberschrift {
+	margin-top: 5px;
+	margin-left: 5px;
+	margin-right: 5px;
+	background-color: #CAE1FF;
+	text-align: center;
+	box-shadow:0px 0px 0px 1px #87CEFF inset;
+}
+
+div.artikelRechtsBild{
+	margin: 5px 5px 5px 5px;
+	width: 340x;
+	height: 202px;
+}
+
+.artikelRechtsBild {
+	width: 340x;
+	height: 202px;
+}
+
+.artikelRechtsTabelle{
+	margin-left: 5px;
+	overflow: hidden;
+}
+
+.headerLinks {
+	text-align: right;
+	padding: 0.8em 1.4em;
+	font-size: 0.72em;
+	color: #777;
+	letter-spacing: 0.017em;
+}
+.headerLinks a{
+	display: inline-block;
+	margin: 0 0 0 0.5em;
+}
+
+.tabs ul li a {
+	display: block;
+	font-size: 0.9em;
+	padding: 1em 0.5em 0;
+	line-height: 2em;
+	position: relative;
+}
+
+.tabs ul {
+	background-image: linear-gradient(to bottom, white 0%, #CAE1FF 50%);
+	display: inline-block;
+	margin: 0;
+	padding: 0 0 0 0;
+}
+
+.tabs ul li {
+	white-space: nowrap;
+	display: inline-block;
+}
+
+.tabs ul li a.aktuell {
+	background-color: white;
+}
+
+.links {
+	float: left;
+}
+
+.rechts {
+	float: right;
+}
+
+.aufzählung{
+	list-style-type:disc;
+	padding-left: 1.5em;
+}
+
+.flugzeugliste{
+	margin-bottom: 5px;
+	line-height: 1.8;
+	font-size: 95%;
+	padding-left:10%;
+	padding-right: 1em;
+}
+
+.artikel {
+	padding: 1em 2em 1em 2em;
+	background: #FFF;
+	line-height: 1.5;
+	font-size: 0.9em;
+	border-left: 1px solid #a7d7f9;
+	border-top: 1px solid #a7d7f9;
+	border-bottom: 1px solid #a7d7f9;
+}
+
+.artikel p {
+	line-height: inherit;
+	margin: 0.5em 0;
+}
+
+.inhaltsverzeichnis {
+	border: 1px solid #a2a9b1;
+	background-color: #f8f9fa;
+	padding: 5px;
+	font-size: 95%;
+	position: relative;
+	line-height: 1.7em;
+	width: 280px;
+}
+
+.datentabelle {
+	border-collapse: collapse;
+}
+
+.datentabelle thead tr th{
+	border: 1px solid black;
+	padding: 4px;
+	background-color: #FFEBAD;
+}
+
+.datentabelle tbody tr td{
+	border: 1px solid black;
+	padding: 3px;
+	margin-left: 100px;
+	padding-right: 10px;
+}
+
+.inhaltsverzeichnisÜberschrift {
+	margin-left: 5px;
+	font-family: sans-serif;
+	font-weight: bold;
+	text-align: left;
+}
+
+.inhaltsverzeichnis ul li span {
+	display: inline-block;
+}
+
+.inhaltsverzeichnis ul {
+	padding: 0 0 5px 5px;
+}
+
+.inhaltsverzeichnis ul li ul li {
+	padding: 0 0 0 25px;
+}
+
+.box {
+	background: #fdfdfd;
+	border: 1px solid #a2a9b1;
+	clear: both;
+	text-align: center;
+	padding: 3px;
+	line-height: 1.7em;
+	margin: 1em auto 0;
+}
+
+.box .kopf {
+	background: #EAECF0;
+	padding: 0.25em 1em;
+	line-height: 1.5em;
+	text-align: center;
+	font-weight: bold;
+	color: black;
+	font-size: 110%;
+	margin-bottom: 3px;
+}
+
+.kategorien {
+	border: 1px solid #a2a9b1;
+	background-color: #f8f9fa;
+	padding: 5px;
+	margin-top: 1em;
+	font-size: 1.1em;
+	clear: both;
+}
+
+.footer {
+	padding-top: 2em;
+	padding-left: 1.5em;
+	padding-right: 4em;
+	font-size: 70%;
+	line-height: 1.5em;
+}
+
+.footerlinks{
+	padding-top: 1.5em;
+	padding-bottom: 2em;
+}
