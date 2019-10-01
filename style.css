@@ -42,6 +42,20 @@ h1 {
 	font-size: 2.3em;
 }
 
+.account {
+	padding-bottom: 1em;
+	padding-top: 0.8em;
+	padding-right: 2.7em;
+	text-align: right;
+	font-size: 0.72em;
+	color: #777;
+}
+
+.account a {
+	display: inline-block;
+	margin: 0 0 0 0.5em;
+}
+
 .artikel h1 {
 	border-bottom: 1px solid #a2a9b1;
 }
@@ -102,6 +116,10 @@ ul {
 .kleinesbild {
 	width: 1.3em;
 	height: 1.3em;
+}
+
+.abstand{
+	margin-right: 5px;
 }
 
 .seite {
