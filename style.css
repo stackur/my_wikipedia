@@ -27,6 +27,7 @@ body{
 }
 
 h1, h2, h3, h4, h5, h6 {
+	font-family: 'Linux Libertine','Georgia','Times';
 	color: #000;
 	font-weight: normal;
 	margin: 0;
@@ -35,8 +36,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-	font-family: 'Linux Libertine','Georgia','Times';
-	line-height: 1.3;
+	line-height: 1.2;
 	margin-bottom: 0.25em;
 	padding: 0;
 	font-size: 2.3em;
@@ -47,8 +47,8 @@ h1 {
 	padding-top: 0.8em;
 	padding-right: 2.7em;
 	text-align: right;
-	font-size: 0.72em;
-	color: #777;
+	font-size: 0.755em;
+	color: #54595d;
 }
 
 .account a {
@@ -61,10 +61,11 @@ h1 {
 }
 
 .artikel h2 {
+	padding-bottom: 0;
 	font-size: 1.6em;
 	margin: 0.5em 0 0.5em 0;
 	border-bottom: 1px solid #a2a9b1;
-	line-height: 1.4em;
+	line-height: 1.2em;
 	overflow: hidden;
 }
 
@@ -118,11 +119,14 @@ ul {
 	height: 1.3em;
 }
 
-.abstand{
+.kleinesbild_abstand{
 	margin-right: 5px;
+	height: 1em;
+	width: 1em;
 }
 
 .seite {
+	background-image: linear-gradient(to bottom, white 0%, #f8f9fa 50%);
 	float: left;
 	width: 9em;
 	padding: 3px 1.5em 10px 1.3em;
@@ -203,7 +207,7 @@ div.artikelRechtsBild{
 }
 
 .tabs ul {
-	background-image: linear-gradient(to bottom, white 0%, #CAE1FF 50%);
+	background-image: linear-gradient(to bottom, white 0%, #CAE1FF 200%);
 	display: inline-block;
 	margin: 0;
 	padding: 0 0 0 0;
