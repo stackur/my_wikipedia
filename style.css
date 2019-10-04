@@ -10,33 +10,6 @@ body{
 	margin: 0px;
 }
 
-.seite {
-	padding-left: 1.3em;
-	padding-right: 1.7em;
-	background: linear-gradient(to bottom, white, #f8f9fa, #f8f9fa, #f8f9fa, #f8f9fa);
-	float: left;
-	width: 9em;
-	position: absolute;
-}
-
-.hauptsektion {
-	background-color: white;
-	margin: 0 0 0 12em;
-}
-
-.seitennavigation {
-	padding: 0.15em;
-}
-
-.cleared:before,.cleared:after {
-	content: " ";
-	display: table;
-}
-
-.cleared:after {
-	clear: both;
-}
-
 h1, h2, h3, h4, h5, h6 {
 	color: #000;
 	font-weight: normal;
@@ -53,6 +26,37 @@ h1 {
 	font-size: 2.3em;
 }
 
+.seite {
+	padding-left: 1.3em;
+	padding-right: 1.7em;
+	background: linear-gradient(to bottom, white, #f8f9fa, #f8f9fa, #f8f9fa, #f8f9fa);
+	float: left;
+	width: 9em;
+	position: absolute;
+}
+
+.wikizeichen {
+	margin-bottom: 10px;
+}
+
+.seitennavigation {
+	padding: 0.15em;
+}
+
+.hauptsektion {
+	background-color: white;
+	margin: 0 0 0 12em;
+}
+
+.cleared:before,.cleared:after {
+	content: " ";
+	display: table;
+}
+
+.cleared:after {
+	clear: both;
+}
+
 .account {
 	padding-bottom: 1em;
 	padding-top: 0.8em;
@@ -65,6 +69,40 @@ h1 {
 .account a {
 	display: inline-block;
 	margin: 0 0 0 0.5em;
+}
+
+.links {
+	float: left;
+}
+
+#Suche {
+	margin-right: 2em;
+	margin-left: 5px;
+	margin-top: 1em;
+	border: 1px solid #c8ccd1;
+	border-radius: 2px;
+	width: 197px;
+	height: 27px;
+	float: right;
+}
+
+.rechts {
+	float: right;
+}
+
+.artikel {
+	padding: 1em 2em 1em 2em;
+	background: #FFF;
+	line-height: 1.5;
+	font-size: 0.9em;
+	border-left: 1px solid #a7d7f9;
+	border-top: 1px solid #a7d7f9;
+	border-bottom: 1px solid #a7d7f9;
+}
+
+.artikel p {
+	line-height: inherit;
+	margin: 0.5em 0;
 }
 
 .artikel h1 {
@@ -107,21 +145,6 @@ ul {
 	padding: 0.3em 0 0 0;
 }
 
-#Suche {
-	margin-right: 2em;
-	margin-left: 5px;
-	margin-top: 1em;
-	border: 1px solid #c8ccd1;
-	border-radius: 2px;
-	width: 197px;
-	height: 27px;
-	float: right;
-}
-
-.wikizeichen {
-	margin-bottom: 10px;
-}
-
 .mittleresBild{
 	float: left;
 	width:10%;
@@ -138,7 +161,6 @@ ul {
 	height: 1em;
 	width: 1em;
 }
-
 
 .seite h3 {
 	font-size: 0.75em;
@@ -227,14 +249,6 @@ div.artikelRechtsBild{
 	background-color: white;
 }
 
-.links {
-	float: left;
-}
-
-.rechts {
-	float: right;
-}
-
 .aufzählung{
 	list-style-type:disc;
 	padding-left: 1.5em;
@@ -246,21 +260,6 @@ div.artikelRechtsBild{
 	font-size: 95%;
 	padding-left:10%;
 	padding-right: 1em;
-}
-
-.artikel {
-	padding: 1em 2em 1em 2em;
-	background: #FFF;
-	line-height: 1.5;
-	font-size: 0.9em;
-	border-left: 1px solid #a7d7f9;
-	border-top: 1px solid #a7d7f9;
-	border-bottom: 1px solid #a7d7f9;
-}
-
-.artikel p {
-	line-height: inherit;
-	margin: 0.5em 0;
 }
 
 .inhaltsverzeichnis {
