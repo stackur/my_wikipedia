@@ -3,13 +3,24 @@ html {
 	color: #222;
 	font-size: 1em;
 	line-height: 1.4;
+	background-color: #f8f9fa;
 }
 
 body{
 	margin: 0px;
 }
 
+.seite {
+	padding-left: 1.3em;
+	padding-right: 1.7em;
+	background: linear-gradient(to bottom, white, #f8f9fa, #f8f9fa, #f8f9fa, #f8f9fa);
+	float: left;
+	width: 9em;
+	position: absolute;
+}
+
 .hauptsektion {
+	background-color: white;
 	margin: 0 0 0 12em;
 }
 
@@ -27,7 +38,6 @@ body{
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'Linux Libertine','Georgia','Times';
 	color: #000;
 	font-weight: normal;
 	margin: 0;
@@ -36,6 +46,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
+	font-family: 'Linux Libertine','Georgia','Times';
 	line-height: 1.2;
 	margin-bottom: 0.25em;
 	padding: 0;
@@ -61,6 +72,7 @@ h1 {
 }
 
 .artikel h2 {
+	font-family: 'Linux Libertine','Georgia','Times';
 	padding-bottom: 0;
 	font-size: 1.6em;
 	margin: 0.5em 0 0.5em 0;
@@ -70,6 +82,7 @@ h1 {
 }
 
 .artikel h3 {
+	font-family: 'Linux Libertine','Georgia','Times';
 	font-weight: bold;
 	font-size: 1.2em;
 }
@@ -95,13 +108,14 @@ ul {
 }
 
 #Suche {
-	margin: 0.7em 0em 0em 1em;
-	display: block;
+	margin-right: 2em;
+	margin-left: 5px;
+	margin-top: 1em;
+	border: 1px solid #c8ccd1;
+	border-radius: 2px;
 	width: 197px;
 	height: 27px;
-	padding: 0 0 0 0px;
 	float: right;
-	overflow: hidden;
 }
 
 .wikizeichen {
@@ -125,13 +139,6 @@ ul {
 	width: 1em;
 }
 
-.seite {
-	background-image: linear-gradient(to bottom, white 0%, #f8f9fa 50%);
-	float: left;
-	width: 9em;
-	padding: 3px 1.5em 10px 1.3em;
-	position: absolute;
-}
 
 .seite h3 {
 	font-size: 0.75em;
@@ -209,8 +216,6 @@ div.artikelRechtsBild{
 .tabs ul {
 	background-image: linear-gradient(to bottom, white 0%, #CAE1FF 200%);
 	display: inline-block;
-	margin: 0;
-	padding: 0 0 0 0;
 }
 
 .tabs ul li {
@@ -335,6 +340,7 @@ div.artikelRechtsBild{
 }
 
 .footer {
+	background: #f8f9fa;
 	padding-top: 2em;
 	padding-left: 1.5em;
 	padding-right: 4em;
